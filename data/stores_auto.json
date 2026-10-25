@@ -1,0 +1,79 @@
+{
+  "motoscoot": {
+    "search_url": "https://motoscoot.net/pt/pages/search?query={q}",
+    "base_url": "https://www.motoscoot.net",
+    "card": "div.card-wrapper",
+    "title": "h3 a",
+    "price": "span.price-item--sale",
+    "link": "h3 a",
+    "country": "ES",
+    "verticals": [
+      "moto"
+    ]
+  },
+  "custojusto": {
+    "search_url": "https://www.custojusto.pt/portugal/q/{q}",
+    "base_url": "https://www.custojusto.pt",
+    "card": "div.tw-group.tw-relative.tw-h-fit.tw-scroll-mt-36",
+    "title": "h2",
+    "price": "h5.tw-m-0.tw-min-h-6.tw-truncate.tw-break-all.tw-text-xl.tw-font-semibold",
+    "link": "a:has(h2)",
+    "country": "PT",
+    "verticals": [
+      "tech",
+      "general",
+      "cars",
+      "moto"
+    ],
+    "default_condition": "used",
+    "private_listings": true
+  },
+  "prof": {
+    "search_url": "https://www.profonlinestore.com/pt/pesquisa_36.html?c=1&term={q}&page=2",
+    "base_url": "https://www.profonlinestore.com",
+    "card": "div.rcc-search-suggested-product",
+    "title": "[class*=title]",
+    "price": "span.rcc-search-price",
+    "link": "a[href]",
+    "country": "PT",
+    "verticals": [
+      "general"
+    ]
+  },
+  "bertrand": {
+    "search_url": "https://www.bertrand.pt/pesquisa/{q}",
+    "base_url": "https://www.bertrand.pt",
+    "card": "div.product-portlet",
+    "title": "[class*=title] a",
+    "price": "span.pch__price-current",
+    "link": "[class*=title] a",
+    "country": "PT",
+    "verticals": [
+      "general"
+    ]
+  },
+  "vertbaudet": {
+    "search_url": "https://www.vertbaudet.pt/search={q}.htm",
+    "base_url": "https://www.vertbaudet.pt",
+    "card": "div.tagproduct",
+    "title": "[class*=title] a",
+    "price": "span.price-value",
+    "link": "[class*=title] a",
+    "country": "PT",
+    "verticals": [
+      "general"
+    ]
+  },
+  "almedina": {
+    "search_url": "https://www.almedina.net/?books%5Bquery%5D={q}",
+    "base_url": "https://www.almedina.net",
+    "card": "li.ais-InfiniteHits-item",
+    "title": "[class*=title]",
+    "price": "span.hit-price-discount",
+    "link": "a:has([class*=title])",
+    "country": "PT",
+    "verticals": [
+      "general"
+    ]
+  }
+}
