@@ -1,0 +1,30 @@
+# Ambiente
+venv/
+.venv/
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Dados locais (só o registo de lojas automáticas vai para o repositório)
+data/*
+!data/stores_auto.json
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# Ferramentas e notas pessoais de desenvolvimento
+.vscode/
+.roocoderules
+Modelfile
+contexto/
+codigo_*.txt
+*.zip
